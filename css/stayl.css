@@ -1,0 +1,538 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* ________header_________ */
+.navbar-color{
+    background-color: rgb(157, 136, 109) !important;
+}
+.btn-header2{
+    background-color: rgb(186, 167, 142) !important;
+}
+.form-header{
+    margin-left:auto;
+}
+.btn-header2{
+    margin-left: 10px;
+    background-color: bisque;
+}
+/* ________________ */
+.alert-login{
+    padding: 25px;
+   
+}
+.modal-footer{
+    position: relative;
+}
+.login-btn {
+    position: absolute;
+    left:20px ;
+    background-color: bisque;
+}
+/* _____sec1________ */
+.carousel-caption{
+    background-color: rgba(0, 0, 0, 0.5);
+    /* width: 500px;
+    margin: auto; */
+    border-radius: 30px 0px 30px 0px;
+}
+.sec1-h1{
+    color: rgb(73, 54, 17);
+}
+.sec1-p{
+    color: rgb(90, 76, 47);
+    font-weight: bold;
+}
+/* _________icon-fixed_________ */
+.par11-sec2{
+    position: fixed;
+    top:250;
+    right: 20;
+    z-index: 3;
+}
+
+.list-fixed li{
+    list-style-type: none;
+    font-size: 50px;
+
+}
+.list-fixed li a{
+    color: rgb(78, 66, 52);
+}
+.list-fixed li a:hover{
+    color: rgb(177, 153, 129);
+}
+
+/* ___________sec2_____________ */
+
+.card-text2{
+    text-align: center;
+    background-color: rgb(251, 243, 234) !important;
+}
+.card-link{
+    color: rgb(73, 54, 17);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+   
+    
+}
+.card-link:hover{
+    color: rgb(141, 118, 74);}
+
+/* ________img-fixed________ */
+.img-fixed{
+    width: 100%;
+    height: 300px;
+    background-image: url(../image/wallpaperflare.com_wallpaper\ \(8\).jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+
+.img-fixed2{
+    width: 100%;
+    height: 300px;
+    margin-top: 50px;
+    background-image: url(../image/wallpaperflare.com_wallpaper\ \(3\).jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+/* _____________sec3____________ */
+
+.btn-sec3{
+    position: absolute;
+    right: 40;
+    top:69%;
+    z-index: 2;
+    background-color: rgb(186, 172, 153) !important;
+    color: rgb(68, 41, 6) !important;
+}
+.card-color{
+    position: relative;
+}
+
+.card-color::after{
+    content: "";
+    position: absolute;
+
+    width: 0;
+    height: 0;
+
+    top:0;
+    right:0;
+
+
+    background-color: rgb(126, 115, 64);
+    opacity: 0.4;
+    transition: 2s;
+    
+}
+.card-color:hover::after{
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+}
+
+.card-color::before{
+    content: "";
+    position: absolute;
+
+    width: 0%;
+    height: 0;
+
+   bottom:0;
+    left: 0;
+
+    z-index: 2;
+    background-color: rgb(17, 69, 7);
+    opacity: 0.4;
+    transition: 2s;
+}
+.card-color:hover::before{
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+}
+
+
+/* ______________________ */
+.container{
+   
+    margin: 40px auto;
+   
+    height: 400px;
+    overflow: auto;
+    /* border: 2px solid black; */
+}
+.img-shep{
+    clip-path: polygon(-8% -8%, 65% -2%, 30% 108%, 0% 100%);
+    border: 1px solid gray;
+    height: 396px;
+    width: 600px;
+    background-image: url(../image/download\ \(1\).jpg);
+    margin-left: -20px;
+    background-repeat: no-repeat;
+    background-size:cover;
+    
+    /* background: deepskyblue; */
+   float: left;
+   margin-top: -15px;
+   
+}
+.img-shep2{
+    width: 700px;
+    height: 350px;
+    float: left;
+    /* border: 2px solid black; */
+   margin-left: -210px;
+   margin-top: 20px;
+
+}
+
+.h2-img-shep2{
+    font-size: 40px;
+    font-family: cursive;
+    letter-spacing: 0.7px;
+    color: rgb(6, 44, 82);
+    word-spacing: 2px;
+    text-shadow: 1px 1px 3px rgb(111, 126, 153);
+}
+.hr-img-shep2{
+    width: 80px;
+    height: 3px;
+    background-color: rgb(11, 11, 111);
+    margin-left: 22px;
+    
+}
+.icon-img-shep2{
+    margin-left: 6px;
+    color: rgb(100, 129, 145);
+    
+}
+.img-shep2 p{
+   
+    letter-spacing: 1px;
+    word-spacing: 1px;
+    color: rgb(59, 68, 78);
+}
+.btn-img-shep2{
+    width: 120px;
+    height: 30px;
+    margin-left: 15px;
+    margin-top: 15px;
+    color: rgb(24, 46, 62);
+    border-radius: 5px;
+}
+/* _________ */
+.img-shep22{
+    clip-path: polygon(36% -4%, 100% 0%, 105% 99%, 74% 101%);
+    border: 1px solid gray;
+    height: 390px;
+    width: 480px;
+    background-image: url(../image/wallpaperflare.com_wallpaper\ \(3\).jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* إذا أردت عرض لون بدل صورة */
+    /* background: deepskyblue; */
+    float:right;
+   margin-right: -15px;
+    margin-top: -2px;
+}
+/* _____________ */
+.img-shep23{
+    clip-path: polygon(36% -4%, 100% 0%, 105% 99%, 74% 101%);
+    border: 1px solid gray;
+    height: 390px;
+    width: 480px;
+    background-image: url(../image/download.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* إذا أردت عرض لون بدل صورة */
+    /* background: deepskyblue; */
+    float:right;
+   margin-right: -15px;
+    margin-top: -2px;
+}
+
+/* _______________ */
+@media(max-width:576px){
+    .img-shep22{
+        clip-path: none;
+        height: 250px;
+        width: 100%;
+        background-image: url(../image/wallpaperflare.com_wallpaper\ \(3\).jpg);
+        background-repeat: no-repeat;
+        background-size:cover;
+        margin:auto;
+    }
+    .container{
+        height: 600px;
+    }
+    .btn-img-shep2{
+       margin-bottom: 15px;
+    }
+    .img-shep{
+        clip-path: none;
+        height: 250px;
+        width: 100%;
+        background-image: url(../image/download\ \(1\).jpg);
+        background-repeat: no-repeat;
+        background-size:cover;
+       margin: auto;
+       
+
+    }
+    .img-shep2{
+        width: 300px;
+        height: 350px;
+        float: left;
+        /* border: 2px solid black; */
+       margin: auto;
+    
+    }
+    .img-shep2 .btn-img-shep2{
+        margin-bottom: 15px;
+    }
+    .bord-hight{
+        height: 800px;
+    }
+    .cont-hight{
+        height: 800px;
+    }
+    .img-shep23{
+        clip-path: none;
+        height: 250px;
+        width: 100%;
+       
+        background-repeat: no-repeat;
+        background-size:cover;
+        margin:auto;
+    }
+  
+   
+    
+}
+ 
+
+.img-shep3{
+    width: 600px;
+    height: 350px;
+    float: left;
+    margin-left: 32px;
+    margin-top: 15px;
+}
+/* 
+@media(max-width:991px){
+    .fff{
+        display:flex;
+        flex-direction: column-reverse;
+    }
+    .img-shep{
+        border-radius: 20px 20px 0 0;
+    }
+    .img-shep2{
+        margin-bottom: 10px;
+    }
+} */
+
+/* _________sec5____________ */
+/* .sec5{
+    width: 85%;
+    height: 450px;
+    display: grid;
+    grid-template-columns: repeat(3,33%);
+    border: 2px solid black;
+    margin: auto;
+   
+    
+    
+} */
+.sec5-img1{
+    background-image: url(../image/202241_0228_sputnik-chandelier-34-2-z.jpg);
+    background-size: cover;
+    position: relative;
+
+}
+.sec5-img2{
+    background-image: url(../image/202134_0757_ceramic-villagescape-planter-6-z.jpg);
+    background-size: cover;
+    position: relative;
+
+}
+.sec5-img3{
+    background-image: url(../image/202128_0369_alura-homescent-collection-white-aloe-1-z.jpg);
+    background-size: cover;
+    position: relative;
+
+}
+.sec5-1{
+   
+    height: 400px;
+    /* border: 2px solid black; */
+    border-radius: 15px;
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-right: 15px;
+}
+.overlay{
+   width: 100%;
+   height: 100%;
+   border-radius: 15px;
+    background-color: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    left: 0;
+    top: o; 
+}
+
+.sec5-p{
+    color: aliceblue;
+    margin-left: 30px;
+    margin-top: 25px;
+    z-index: 3;
+}
+.fa-clock{
+    margin-top: -10px;
+    margin-left: 33px;
+    color: aliceblue;
+}
+.sec5-roundimg{
+    width: 100px;
+    height: 100px;
+   margin-top: 135px;
+   margin-left: 40px;
+}
+.sec5-1:hover .overlay{
+    transform: scale(1.1,1.1);
+}
+/* ______________________________ */
+/* .jumbotron{
+    height: 70px;
+   
+}
+.jumbotron h1{
+    margin-top: -23px;
+    color: rgb(82, 49, 5);
+     background-color: rgb(215, 213, 211);
+    
+    
+} */
+/* ______________sec6____________*/
+.sec6-1{
+    border: 2px solid rgb(251, 251, 251);
+    height: 200px;
+    width: 270px;
+    text-align: center;
+   margin: auto;
+   box-shadow: 10px 10px 12px  rgb(126, 120, 111);
+   background-color: rgb(251, 251, 251);
+   border-radius: 15px;
+}
+.sec6-1 h4{
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 22px;
+} 
+.sec6-1 .fas{
+    font-size: 70px;
+    margin-top: 12px;
+    color: rgb(132, 115, 93);
+    background-color: rgb(224, 220, 197);
+   border-radius: 15px;
+   text-shadow: 1px 1px 3px rgb(254, 252, 250);
+}
+.sec6-1 a{
+    margin-bottom: -25px;
+    font-size: 20px;
+    text-decoration: none;
+    color: rgb(132, 115, 93);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.sec6-1 .icon-sec6:hover{
+    background-color: rgb(239, 232, 221);
+}
+.a-sec6:hover{
+    text-decoration: none;
+    color: rgb(71, 43, 5);
+}
+/* _____________footer______________ */
+.container-footer{
+    height: 350px;
+    background-color: rgb(255, 253, 251);
+    margin-top: 40px;
+}
+.foot1,.foot2,.foot3{
+    height:130px;
+    margin: auto;
+    text-align: center;
+}
+.foot-span{
+    color: rgb(101, 90, 14);
+    font-size: 22px;
+}
+.foot-sec2{
+    text-align: center;
+    color: rgb(101, 90, 14);
+    font-size: 18px;
+    margin-top: 12px;
+}
+
+.foot-sec2 p:hover {
+    color:  rgb(209, 202, 159);
+}
+.end{
+    margin-top: 10px;
+    text-align: center;
+    color: rgb(101, 90, 14);
+    font-size: 22px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+/* _______________ */
+.jum-hight{
+    height: 15px;
+    margin-top: 10px;
+    background-color:   rgb(252, 248, 242) !important;
+}
+.text-jum-hight{
+    margin-top: -30px;
+
+}
+.jum-1{
+    background-color:   rgb(252, 248, 242) !important;
+}
+/* _________________________ */
+/* .desc-decor{
+    margin-top: 40px;
+    background-color: antiquewhite;
+}
+.title-decor{
+    width: 100%;
+    text-align: center;
+    background-color: bisque;
+} */
+.jum-decor{
+    background-color:   rgb(252, 248, 242) !important;
+}
+.h1-decor{
+   
+   margin-top: -50px !important;
+   
+   background-color:   rgb(239, 234, 227) !important;
+}
+.decor-sec2{
+    margin-top: -40px !important;
+}
+.btn-send{
+    background-color:   rgb(239, 234, 227) !important;
+    color: rgb(56, 33, 4) !important;
+    border-radius: 50px 0px ;
+}
+@media(max-width:576px){
+    .h1-decor{
+   
+        margin-top: -5px !important;}
+}
+
