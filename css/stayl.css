@@ -258,15 +258,16 @@
 }
 
 /* _______________ */
-@media(max-width:576px){
+@media(max-width:700px){
     .img-shep22{
-        clip-path: none !important;
+       
+        background-image: url(../image/wallpaperflare.com_wallpaper\ \(3\).jpg) !important;
+        background-repeat: no-repeat !important;
+        background-size:cover !important;
+        margin:auto !important;
+         clip-path: none !important;
         height: 250px !important;
         width: 100% !important;
-        background-image: url(../image/wallpaperflare.com_wallpaper\ \(3\).jpg) ;
-        background-repeat: no-repeat;
-        background-size:cover;
-        margin:auto !important;
     }
     .container{
         height: 600px !important;
@@ -275,13 +276,14 @@
        margin-bottom: 15px !important;
     }
     .img-shep{
-        clip-path: none !important;
+       
+        background-image: url(../image/download\ \(1\).jpg) !important;
+        background-repeat: no-repeat !important;
+        background-size:cover !important;
+       margin: auto !important;
+         clip-path: none !important;
         height: 250px !important;
         width: 100% !important;
-        background-image: url(../image/download\ \(1\).jpg);
-        background-repeat: no-repeat;
-        background-size:cover;
-       margin: auto !important;
        
 
     }
@@ -423,7 +425,7 @@
 .sec6-1{
     border: 2px solid rgb(251, 251, 251);
     height: 200px;
-    width: 270px;
+/*     width: 270px; */
     text-align: center;
    margin: auto;
    box-shadow: 10px 10px 12px  rgb(126, 120, 111);
