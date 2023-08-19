@@ -258,12 +258,12 @@
 }
 
 /* _______________ */
-@media screen and (max-width:600px){
+@media(max-width:600px){
     .img-shep22{
-       
+/*        
         background-image: url(../image/wallpaperflare.com_wallpaper\ \(3\).jpg) !important;
         background-repeat: no-repeat !important;
-        background-size:cover !important;
+        background-size:cover !important; */
         margin:auto !important;
         clip-path: none !important;
         height: 250px !important;
@@ -277,9 +277,9 @@
     }
     .img-shep{
        
-        background-image: url(../image/download\ \(1\).jpg) !important;
+/*         background-image: url(../image/download\ \(1\).jpg) !important;
         background-repeat: no-repeat !important;
-        background-size:cover !important;
+        background-size:cover !important; */
        margin: auto !important;
          clip-path: none !important;
         height: 250px !important;
@@ -309,8 +309,8 @@
         height: 250px !important;
         width: 100% !important;
        
-        background-repeat: no-repeat ;
-        background-size:cover  ;
+/*         background-repeat: no-repeat ;
+        background-size:cover  ; */
         margin:auto !important;
     }
   
@@ -326,32 +326,9 @@
     margin-left: 32px;
     margin-top: 15px;
 }
-/* 
-@media(max-width:991px){
-    .fff{
-        display:flex;
-        flex-direction: column-reverse;
-    }
-    .img-shep{
-        border-radius: 20px 20px 0 0;
-    }
-    .img-shep2{
-        margin-bottom: 10px;
-    }
-} */
 
 /* _________sec5____________ */
-/* .sec5{
-    width: 85%;
-    height: 450px;
-    display: grid;
-    grid-template-columns: repeat(3,33%);
-    border: 2px solid black;
-    margin: auto;
-   
-    
-    
-} */
+
 .sec5-img1{
     background-image: url(../image/202241_0228_sputnik-chandelier-34-2-z.jpg);
     background-size: cover;
