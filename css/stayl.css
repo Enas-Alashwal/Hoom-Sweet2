@@ -258,14 +258,14 @@
 }
 
 /* _______________ */
-@media(min-width:992px){
+@media screen and (max-width:600px){
     .img-shep22{
        
         background-image: url(../image/wallpaperflare.com_wallpaper\ \(3\).jpg) !important;
         background-repeat: no-repeat !important;
         background-size:cover !important;
         margin:auto !important;
-         clip-path: none !important;
+        clip-path: none !important;
         height: 250px !important;
         width: 100% !important;
     }
