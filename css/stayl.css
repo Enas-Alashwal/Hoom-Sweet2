@@ -258,7 +258,7 @@
 }
 
 /* _______________ */
-@media(max-width:540px){
+@media(max-width:800px){
     .img-shep22{
         clip-path: none;
         height: 250px;
