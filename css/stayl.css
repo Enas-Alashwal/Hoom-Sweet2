@@ -260,56 +260,56 @@
 /* _______________ */
 @media(max-width:576px){
     .img-shep22{
-        clip-path: none;
-        height: 250px;
-        width: 100%;
-        background-image: url(../image/wallpaperflare.com_wallpaper\ \(3\).jpg);
+        clip-path: none !important;
+        height: 250px !important;
+        width: 100% !important;
+        background-image: url(../image/wallpaperflare.com_wallpaper\ \(3\).jpg) ;
         background-repeat: no-repeat;
         background-size:cover;
-        margin:auto;
+        margin:auto !important;
     }
     .container{
-        height: 600px;
+        height: 600px !important;
     }
     .btn-img-shep2{
-       margin-bottom: 15px;
+       margin-bottom: 15px !important;
     }
     .img-shep{
-        clip-path: none;
-        height: 250px;
-        width: 100%;
+        clip-path: none !important;
+        height: 250px !important;
+        width: 100% !important;
         background-image: url(../image/download\ \(1\).jpg);
         background-repeat: no-repeat;
         background-size:cover;
-       margin: auto;
+       margin: auto !important;
        
 
     }
     .img-shep2{
-        width: 300px;
-        height: 350px;
-        float: left;
+        width: 300px !important;
+        height: 350px !important;
+        float: left !important;
         /* border: 2px solid black; */
-       margin: auto;
+       margin: auto !important;
     
     }
     .img-shep2 .btn-img-shep2{
-        margin-bottom: 15px;
+        margin-bottom: 15px !important;
     }
     .bord-hight{
-        height: 800px;
+        height: 800px !important;
     }
     .cont-hight{
-        height: 800px;
+        height: 800px !important;
     }
     .img-shep23{
-        clip-path: none;
-        height: 250px;
-        width: 100%;
+        clip-path: none !important;
+        height: 250px !important;
+        width: 100% !important;
        
-        background-repeat: no-repeat;
-        background-size:cover;
-        margin:auto;
+        background-repeat: no-repeat ;
+        background-size:cover  ;
+        margin:auto !important;
     }
   
    
